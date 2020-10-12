@@ -1,5 +1,5 @@
 .container{
-    width: 50vw;
+    width: 50%;
     height: 90vh;
     background-color: #243B55;
     display: flex;
@@ -10,3 +10,18 @@
     overflow: auto;
  
 }
+
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 90%;
+        height: 90vh;
+        background-color: #243B55;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: auto;
+        border-radius: 5px;
+        overflow: auto;
+     
+    }
+  }
