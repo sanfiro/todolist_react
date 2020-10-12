@@ -4,7 +4,7 @@ import { Todo } from "./components/Todo/Todo";
 import { TodoForm } from "./components/TodoForm/TodoForm";
 import styles from "./TodoListPage.module.css";
 export const TodoListPage = () => {
-  const [todos, setTodos] = useState();
+  const [todos, setTodos] = useState([]);
 
   useEffect(() => {
     if (process.env.REACT_APP_SERVER) getTodosServer();

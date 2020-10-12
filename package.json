@@ -2,6 +2,7 @@
   "name": "todolist-react",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://sanfiro.github.io/react_totolist",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
@@ -23,6 +24,8 @@
     "react-scripts": "3.4.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "env-cmd -f .env.server concurrently \"npm run server\" \"react-scripts start\"",
     "start": "react-scripts start",
     "server": "node server",
@@ -44,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
