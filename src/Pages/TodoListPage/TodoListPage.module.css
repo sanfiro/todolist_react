@@ -1,0 +1,12 @@
+.container{
+    width: 50vw;
+    height: 90vh;
+    background-color: #243B55;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    border-radius: 5px;
+    overflow: auto;
+ 
+}

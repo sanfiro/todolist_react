@@ -1,0 +1,50 @@
+.title{
+    font-size: 3rem;
+    color: white;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+.form{
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+.todo_input{
+    /* height: 3rem;
+    width: 350px;
+    border-radius: 5px;
+    border: 3px solid #3a7bd5;
+    margin-top: 2rem;
+   */
+   padding: 14px 32px 14px 16px;
+   border-radius: 4px 0 0 4px;
+   border: 2px solid #3a6073;
+   outline: none;
+   background: transparent;
+   color: #fff;
+   width: 50%;
+}
+.todo_input::placeholder {
+    color: white;
+   
+  }
+
+.btn{
+    padding: 16px;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  outline: none;
+  background: linear-gradient(
+    90deg,
+    #3a6073 0%,
+    #3a7bd5 100%
+  );
+  color: #fff;
+  text-transform: capitalize;
+
+
+
+}
