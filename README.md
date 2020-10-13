@@ -11,4 +11,4 @@
 
 
 # DEMO
-[Link to demo!](https://sanfiro.github.io/react_totolist/)
+[Link to demo!](http://sanfiro.github.io/todolist_react)
