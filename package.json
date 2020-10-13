@@ -2,7 +2,7 @@
   "name": "todolist-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://sanfiro.github.io/react_totolist",
+  "homepage": "http://sanfiro.github.io/react_todolist",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
     "@fortawesome/free-solid-svg-icons": "^5.15.1",
