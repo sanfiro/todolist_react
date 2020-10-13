@@ -12,6 +12,3 @@
 
 # DEMO
 [Link to demo!](https://sanfiro.github.io/react_totolist/)
-
-
-
